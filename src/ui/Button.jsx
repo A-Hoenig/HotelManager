@@ -19,7 +19,6 @@ const sizes = {
     font-weight: 500;
   `,
 };
-// console.log(sizes);
 
 const variations = {
   primary: css`
@@ -48,7 +47,6 @@ const variations = {
     }
   `,
 };
-// console.log(variations);
 
 const Button = styled.button`
   border: none;
@@ -60,7 +58,7 @@ const Button = styled.button`
 `;
 
 Button.defaultProps = {
-  $variation: "primary",
+  variation: "primary",
   size: "medium",
 };
 
